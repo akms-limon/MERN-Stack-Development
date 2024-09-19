@@ -1,6 +1,8 @@
 // Async programming
 
-//1. setTimeout----------
+
+
+//1. setTimeout--------------------------
 
 // const msg = () => {
 //     console.log("How are you?");
@@ -12,7 +14,11 @@
 
 // console.log("Go to bank");
 
-//2. callback----------
+
+
+
+
+//2. callback-----------------------------
 
 //logic 
 // create a post
@@ -62,6 +68,7 @@
 
 
 
+<<<<<<< HEAD
 // 3. promise -----------------
 
 
@@ -79,3 +86,8 @@ const promise = new Promise((resolve, reject) => {
         reject();
     }
 });
+=======
+
+
+// 3. Promise -----------------------------
+>>>>>>> 627657bef13024a0acc5b6613933cb206f486732
