@@ -68,7 +68,6 @@
 
 
 
-<<<<<<< HEAD
 // 3. promise -----------------
 
 
@@ -86,8 +85,3 @@ const promise = new Promise((resolve, reject) => {
         reject();
     }
 });
-=======
-
-
-// 3. Promise -----------------------------
->>>>>>> 627657bef13024a0acc5b6613933cb206f486732
