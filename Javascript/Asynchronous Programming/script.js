@@ -18,44 +18,64 @@
 // create a post
 // fetch all posts
 
-const postsData = [   // array of posts data
-    {
-        title: "title 1",
-        desc: "desc 1",
-    },
-    {
-        title: "title 2",
-        desc: "desc 2",
-    },
-    {
-        title: "title 3",
-        desc: "desc 3",
-    },
-];
+// const postsData = [   // array of posts data
+//     {
+//         title: "title 1",
+//         desc: "desc 1",
+//     },
+//     {
+//         title: "title 2",
+//         desc: "desc 2",
+//     },
+//     {
+//         title: "title 3",
+//         desc: "desc 3",
+//     },
+// ];
 
-// fetch all posts
+// // fetch all posts
 
-function fetchPosts() {
-    console.log("Post is fetching");
-    console.log(postsData);
-}
+// function fetchPosts() {
+//     console.log("Post is fetching");
+//     console.log(postsData);
+// }
 
-fetchPosts();
+// fetchPosts();
 
-// create posts
-function createPost(post, cb){
-    setTimeout(() => {
-        postsData.push(postsData);
-        cb();
-    }, 5000);
-};
+// // create posts
+// function createPost(post, cb){
+//     setTimeout(() => {
+//         postsData.push(postsData);
+//         cb();
+//     }, 5000);
+// };
 
-// invoke post
+// // invoke post
 
-createPost(
-    {
-    title: "title 4",
-    desc: "desc 4",
-    },
-    fetchPosts
-);
+// createPost(
+//     {
+//     title: "title 4",
+//     desc: "desc 4",
+//     },
+//     fetchPosts
+// );
+
+
+
+// 3. promise -----------------
+
+
+const promise = new Promise((resolve, reject) => {
+    let user = {
+        name: 'limon',
+        city: 'jessore',
+    };
+    
+    let isFaced = true;
+    if (isFaced == ture) {
+        resolve();
+    }
+    else {
+        reject();
+    }
+});
